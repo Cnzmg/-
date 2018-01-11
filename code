@@ -24,3 +24,6 @@ $.fn.RangeSlider = function(cfg){
                     callback(this);
                 }
             });
+
+
+$(inp[i]).RangeSlider({ min: 0,   max: 100,  step: 0.1,  callback: change});
